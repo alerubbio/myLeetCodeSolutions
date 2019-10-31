@@ -4,6 +4,7 @@
 
 // Solution: Square each value in array in sort.
 // Runtime: O(n)
+
 class Solution {
     public int[] sortedSquares(int[] A) {
         
