@@ -7,9 +7,10 @@
 // Return a list of all uncommon words. 
 // You may return the list in any order.
 
-
 // Solution: A word is basically uncommon if it is completely unique. Use HashMap to store
-// 
+// unique occurences of each word.
+// Runtime: O(M + N) lengths of Strings a + b
+
 class Solution {
 	public String[] uncommonFromSentences(String a, String b) 
 	{
@@ -38,6 +39,5 @@ class Solution {
        }
 
        return list.toArray(new String[list.size()]);
-
     }
 }
